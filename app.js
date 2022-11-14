@@ -128,8 +128,16 @@ function exibePet (id) {
                     </svg>
                     Está em ${pet.cidade}, ${pet.estado}
                 </p>
-                <div class="d-grid gap-2 col-6"> 
-                    <button class="btn btn-primary" type="button"> Entrar em Contato </button>
+                
+                <div>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Entrar em Contato
+                    </button>
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                       ${pet.contato}
+                    </div>
                 </div>
                 
                 <div class="historia">
