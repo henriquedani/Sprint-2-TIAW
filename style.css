@@ -32,9 +32,11 @@
 .btn-primary {
     width: 530px;
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 .historia {
+    margin-top: 12px;
     text-align: justify;
     margin-left: 15px;
 }
